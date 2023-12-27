@@ -46,15 +46,254 @@ nav {
     text-transform: uppercase;
 }
 
-.menunav {
-    color: rgba(255, 242, 231, 0.50);
+.menu {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
-    font-family: Inter;
-    font-weight: 500;
-    
+    color: #FFF2E780;
+}
 
+.GitHub {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    background: #181012
+}
+
+.hero {
+
+    max-width: 1120px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    padding: 0rem 2rem;
+    margin: auto;
+    overflow: clip;
+
+
+    
+}
+
+.conteudoHero {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero-imagens-container {
+    max-width: 45%;
+   column-count: 4;
+   column-gap: 1rem;
+   margin: -1rem;
+
+}
+
+.hero-imagens-container > figure > img {
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+
+.destaque {
+    font-family: Epilogue;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.marrom {
+    color: #A45A49;
+
+}
+
+.amarelo {
+    
+    color: #E7A80E;
+    
+    
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+hr {
+   border-color: #A45A49;;
+}
+
+.heroSubtitulo {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.buttoncontainer {
+    width: 100%;
+    max-width: 1120px;
+    padding: 1rem;
+    margin: auto;
+    transform: translate ("0, -50%");
+    
     
 
 }
+
+    button {
+        border: none;
+        border-radius: 12px;
+        background-color: #A45A49;
+        padding: 1rem;
+    
+    }
+
+    .receitas {
+        display: flex;
+        flex-direction: column;
+        max-width: 1120px;
+        padding: 3rem 2rem;
+        margin: auto
+    
+    }
+
+    .receitas_cabecalho  {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .receitastitulo {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        color:#FFF2E7;
+    }
+
+    .receitaSubtitulo {
+        color: #C7BAB3;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .receitas-card-container {
+        height: 100%;
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .receita-card {
+        background:#241A1C;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction:  column;
+        gap: 2rem;
+        flex-basis: 29rem;
+        
+    }
+
+    .receitas-card-cabecalho {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: end; 
+        
+    }
+    
+
+    .receitas-card-cabecalho-detalhes {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+    }
+
+    .receita-titulo {
+        color: #FFF2E7;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-weight: 700;
+        }
+
+    .receita-avaiação {
+        color: #756A67;
+        font-family: Inter;
+        font-size: 1rem;
+         font-weight: 500;
+    }
+
+    .receita-descricao {
+        color: #C7BAB3;
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .receita-autor {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+    }
+ 
+    .receita-autor > img {
+        border-radius: 20rem;
+        width: 1.5rem;
+    }
+
+    .receita-autor-nome {
+        color: #C7BAB3;
+        font-family: Inter;
+        font-size: 1rem;
+         font-weight: 600;
+    }
+
+    footer {
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        background: #23181A;
+    }
+
+    .footer-copy {
+        color: #FFF2E7;
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .footer-autor {
+         color: rgba(255, 242, 231, 0.50);
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+   .row > column {
+    width: 50%;
+    padding: 5px;
+   }
+
+    
