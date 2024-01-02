@@ -187,22 +187,21 @@ hr {
         font-size: 18px;
         font-weight: 400;
     }
-    .receitas-card-container {
-        height: 100%;
-        flex-direction: row;
+    .receitas-card-container {       
+        padding: 1rem 1rem;
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        
-        
     }
 
+   
     .receita-card {
         background:#241A1C;
-        padding: 2rem;
+        padding: 1rem;
         border-radius: 0.5rem;
         display: flex;
-        flex-direction:  column;
-        gap: 2rem;
+        flex-direction: column;
+        gap: 3rem;
         flex-basis: 29rem;
         
     }
@@ -285,15 +284,5 @@ hr {
         font-size: 1rem;
         font-weight: 500;
     }
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-   .row > column {
-    width: 50%;
-    padding: 5px;
-   }
 
     
