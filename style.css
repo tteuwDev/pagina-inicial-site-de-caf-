@@ -188,13 +188,14 @@ hr {
         font-weight: 400;
     }
     .receitas-card-container {       
-        padding: 1rem 1rem;
+        padding: 2rem 15rem;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
     }
 
-   
     .receita-card {
         background:#241A1C;
         padding: 1rem;
